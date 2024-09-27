@@ -10,9 +10,9 @@ from email.mime.multipart import MIMEMultipart
 POLYGON_API_KEY = os.getenv('cdNJB86_9z2SCL0oUrBQdcH3hQpoJLnj')
 
 # Email credentials from environment variables
-EMAIL_USER = os.getenv('EMAIL_USER')
-EMAIL_PASS = os.getenv('EMAIL_PASS')
-EMAIL_TO = os.getenv('EMAIL_TO')
+EMAIL_USER = os.getenv('arman@apnagenie.co.in')
+EMAIL_PASS = os.getenv('a@213582')
+EMAIL_TO = os.getenv('arman@apnagenie.co.in')
 
 # Function to fetch historical stock data (5-minute candlestick)
 def fetch_stock_data(symbol, timespan='minute', multiplier=5, from_date=None, to_date=None):
