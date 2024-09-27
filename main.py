@@ -7,7 +7,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # Polygon API key from environment variables
-POLYGON_API_KEY = os.getenv('POLYGON_API_KEY')
+POLYGON_API_KEY = os.getenv('cdNJB86_9z2SCL0oUrBQdcH3hQpoJLnj')
 
 # Email credentials from environment variables
 EMAIL_USER = os.getenv('EMAIL_USER')
